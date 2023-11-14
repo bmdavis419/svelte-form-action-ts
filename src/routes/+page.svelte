@@ -35,7 +35,7 @@
       id="firstName"
       class="px-2 py-1 text-slate-900 rounded-lg bg-slate-100 w-[300px] font-light"
       type="text"
-      placeholder="Ben"
+      placeholder="My"
     />
   </div>
 
@@ -48,7 +48,7 @@
       id="lastName"
       class="px-2 py-1 text-slate-900 rounded-lg bg-slate-100 w-[300px] font-light"
       type="text"
-      placeholder="Davis"
+      placeholder="Name"
     />
   </div>
 
