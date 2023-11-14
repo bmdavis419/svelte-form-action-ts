@@ -52,5 +52,11 @@
     />
   </div>
 
-  <button type="submit">Send</button>
+  <div>
+    <button
+      type="submit"
+      class="bg-blue-600 text-white font-bold text-lg px-3 py-1 rounded-full"
+      >Send</button
+    >
+  </div>
 </form>
