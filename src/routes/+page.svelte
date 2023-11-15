@@ -1,6 +1,16 @@
 <script>
   import { enhance } from "$app/forms";
-  import { formData } from "zod-form-data";
+
+  const objectArrayData = [
+    {
+      name: "showcase",
+      desc: "items",
+    },
+    {
+      name: "items 2",
+      desc: "showcase 2",
+    },
+  ];
 </script>
 
 <form
@@ -50,6 +60,17 @@
       type="text"
       placeholder="Name"
     />
+  </div>
+
+  <div>
+    <!-- This is either unhinged or pure brilliance -->
+    {#each objectArrayData as entry}
+      <input
+        class="hidden"
+        name="objectArrayData"
+        value={JSON.stringify(entry)}
+      />
+    {/each}
   </div>
 
   <div>

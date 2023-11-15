@@ -28,6 +28,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"zod": "^3.22.4",
 		"zod-form-data": "^2.0.2"
 	}
 }

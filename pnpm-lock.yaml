@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  zod:
+    specifier: ^3.22.4
+    version: 3.22.4
   zod-form-data:
     specifier: ^2.0.2
     version: 2.0.2(zod@3.22.4)
